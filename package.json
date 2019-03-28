@@ -1,19 +1,22 @@
 {
   "name": "aws-sdk-agent",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Create AWS SDK class with HTTP keep-alive",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
-  "keywords": [],
+  "keywords": [
+    "aws"
+  ],
   "author": "Hidetaka Okamoto <info@wp-kyoto.net> (https://wp-kyoto.net)",
   "license": "MIT",
   "dependencies": {
-    "aws-sdk": "^2.430.0",
-    "https": "^1.0.0"
+    "aws-sdk": "^2.430.0"
   },
   "devDependencies": {
+    "@types/node": "^11.12.0",
     "typescript": "^3.3.4000"
   }
 }
